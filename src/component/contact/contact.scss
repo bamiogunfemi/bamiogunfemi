@@ -1,0 +1,61 @@
+#contact {
+    height: 100vh;
+    width: 100%;
+    font-size: 3.5rem;
+    background-color: #EDEDED;
+    overflow: hidden;
+
+
+}
+
+#lets {
+    padding-top: 15rem;
+}
+
+#hello {
+    border-bottom: 4px solid grey;
+    width: 36rem;
+
+}
+
+#hello a {
+    text-decoration: none;
+    color: black;
+}
+
+#hello:hover {
+    border-bottom: 4px solid white;
+}
+
+
+
+
+
+#copyright {
+    margin-top: -10rem;
+    font-size: 1rem;
+    color: gray;
+    display: flex;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-flex
+}
+
+
+li a {
+    padding: 6px;
+    text-decoration: none;
+}
+
+.contact-email {
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+
+}

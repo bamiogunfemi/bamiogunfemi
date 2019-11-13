@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Gayathri&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Gayathri',sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#1B1818; 
+ 
+  scroll-behavior: smooth;
+
+}

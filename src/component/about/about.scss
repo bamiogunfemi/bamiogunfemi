@@ -1,9 +1,33 @@
 .about-container{
+    height:2rem;
+
+    line-height: 1.2;
    
-    display: flex;
    
 }
 .about-intro{
-    justify-content: flex-end; 
-    width: 40%;
+
 }
+
+.cf:before, .cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+.fl {
+    float: left;
+    _display: inline;
+}
+
+.w-50 {
+    width: 50%;
+}
+

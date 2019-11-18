@@ -67,9 +67,9 @@ function App() {
               params={particleOptions}/>
                <Navigation />
       <div>
-        <Switch>
-       <Route exact path='/'component={HomePage}/>
-       </Switch>
+        <HomePage/>
+
+      
       </div>
       
       

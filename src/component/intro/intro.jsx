@@ -4,9 +4,9 @@ import './typewritter'
 const Intro =()=>(
     <div className='white f2 content dib v-btm'>  
                    
-                    <span>Hiii, I'm Bami Ogunfemi. A Software Developer and </span><br/>
+                    <span>Hiii, I'm Bami Ogunfemi. A Software Engineer and </span>
                         <span
-                           class="txt-rotate"
+                           className="txt-rotate"
                            data-period="2000"
                            data-rotate='[ "Part-time Nerd.","Foodie.", "My best moves are in my head.", "I was not made for stress." ]'></span>
                     

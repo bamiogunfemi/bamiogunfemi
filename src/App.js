@@ -1,5 +1,5 @@
 import React from 'react';
-import {Switch, Route} from 'react-router-dom'
+
 import Navigation from "./component/navigation/navigation";
 import './App.css';
 import Particles from 'react-particles-js';
@@ -66,11 +66,9 @@ function App() {
        <Particles className='particles'
               params={particleOptions}/>
                <Navigation />
-      <div>
+    
         <HomePage/>
 
-      
-      </div>
       
       
      

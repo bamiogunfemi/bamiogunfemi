@@ -60,12 +60,15 @@
 
 .tc {
     text-align: center;
+    
 }
 footer{
-    position: absolute;
-    bottom: 0%;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 600px) {
     .ph5-ns {
         
         padding-left: 4rem;

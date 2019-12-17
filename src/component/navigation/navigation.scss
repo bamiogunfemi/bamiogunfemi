@@ -137,6 +137,10 @@ $color-black: #000;
             background-size: 220%;
             transition: all .4s;
 
+                
+        @include respond(phone) {
+          
+       }
             span {
                 margin-right: 1.5rem;
                 display: inline-block;

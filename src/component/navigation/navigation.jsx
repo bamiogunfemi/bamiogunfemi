@@ -4,9 +4,9 @@ import "./navigation.scss";
 
 const Navigation = () => (
   <div className="">
-    {/* <p className="nav-brand f2 white">
+    <p className="nav-brand f2 white">
       <img src="https://img.icons8.com/office/48/000000/user-female-skin-type-6.png" alt='logo' />
-    </p> */}
+    </p>
     <div className="navigation">
             <input type="checkbox" className="navigation__checkbox" id="navi-toggle"/>
 

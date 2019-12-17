@@ -2,6 +2,7 @@
   position:relative;
   height:100vh;
   padding: 2rem;
+  overflow: hidden;
 
 }
 @media screen and(min-width:600px){

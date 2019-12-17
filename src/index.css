@@ -5,8 +5,8 @@ body {
   font-family: 'Gayathri',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:black; 
- overflow:hidden;
+  background-color:grey; 
+  overflow-x:hidden;
   scroll-behavior: smooth;
 
 }

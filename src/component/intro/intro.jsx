@@ -8,7 +8,7 @@ const Intro =()=>(
                         <span
                            className="txt-rotate"
                            data-period="2000"
-                           data-rotate='[ "Part-time Nerd.","Foodie.", "My best moves are in my head.", "I was not made for stress." ]'></span>
+                           data-rotate='[ "Part-time Nerd.","Foodie.", "My best moves are in my head.", "Lover of great UI and UX." ]'></span>
                     
                     </div>
                       

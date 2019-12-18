@@ -1,21 +1,39 @@
+.nav-brand {
+    position: fixed;
+}
 
-    .nav-brand {
-          position: fixed;
-        }
-    
 
 @mixin respond($breakpoint) {
-    @if $breakpoint == phone {
-        @media only screen and (max-width: 600px) { @content };    //600px
+    @if $breakpoint==phone {
+        @media only screen and (max-width: 600px) {
+            @content
+        }
+
+        ; //600px
     }
-    @if $breakpoint == tab-port {
-        @media only screen and (max-width: 56.25em) { @content };     //900px
+
+    @if $breakpoint==tab-port {
+        @media only screen and (max-width: 56.25em) {
+            @content
+        }
+
+        ; //900px
     }
-    @if $breakpoint == tab-land {
-        @media only screen and (max-width: 75em) { @content };    //1200px
+
+    @if $breakpoint==tab-land {
+        @media only screen and (max-width: 75em) {
+            @content
+        }
+
+        ; //1200px
     }
-    @if $breakpoint == big-desktop {
-        @media only screen and (min-width: 112.5em) { @content };    //1800
+
+    @if $breakpoint==big-desktop {
+        @media only screen and (min-width: 112.5em) {
+            @content
+        }
+
+        ; //1800
     }
 }
 
@@ -65,9 +83,10 @@ $color-black: #000;
         }
     }
 
-    ul{
+    ul {
         display: inline;
     }
+
     &__background {
         height: 3rem;
         width: 3rem;
@@ -96,8 +115,8 @@ $color-black: #000;
         top: 0;
         left: 0;
         z-index: 1500;
-        opacity:0;
-        
+        opacity: 0;
+
         width: 0;
         transition: all .8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
@@ -106,24 +125,25 @@ $color-black: #000;
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
         list-style: none;
         text-align: center;
         width: 100%;
 
 
-        
+
         @include respond(phone) {
-             transform: translate(-57%, -50%);
+            transform: translate(-57%, -50%);
         }
-       
+
     }
 
     &__item {
-     margin:1rem;   
+        margin: 1rem;
     }
 
     &__link {
+
         &:link,
         &:visited {
             display: inline-block;
@@ -137,34 +157,35 @@ $color-black: #000;
             background-size: 220%;
             transition: all .4s;
 
-                
-        @include respond(phone) {
-            font-size: 2.8rem;
-       }
+
+            @include respond(phone) {
+                font-size: 2.5rem;
+            }
+
             span {
                 margin-right: 1.5rem;
                 display: inline-block;
             }
         }
-        
+
         &:hover,
         &:active {
             background-position: 100%;
-            color:#000000;
+            color: #000000;
             transform: translateX(1rem);
         }
     }
 
 
     //FUNCTIONALITY
-    &__checkbox:checked ~ &__background {
+    &__checkbox:checked~&__background {
         transform: scale(80);
-        
+
     }
 
-    &__checkbox:checked ~ &__nav {
+    &__checkbox:checked~&__nav {
         opacity: 1;
-        
+
         width: 100%;
     }
 
@@ -191,8 +212,13 @@ $color-black: #000;
             transition: all .2s;
         }
 
-        &::before { top: -.8rem; }
-        &::after { top: .8rem; }
+        &::before {
+            top: -.8rem;
+        }
+
+        &::after {
+            top: .8rem;
+        }
     }
 
     &__button:hover &__icon::before {
@@ -203,16 +229,16 @@ $color-black: #000;
         top: 1rem;
     }
 
-    &__checkbox:checked + &__button &__icon {
+    &__checkbox:checked+&__button &__icon {
         background-color: transparent;
     }
 
-    &__checkbox:checked + &__button &__icon::before {
+    &__checkbox:checked+&__button &__icon::before {
         top: 0;
         transform: rotate(135deg);
     }
 
-    &__checkbox:checked + &__button &__icon::after {
+    &__checkbox:checked+&__button &__icon::after {
         top: 0;
         transform: rotate(-135deg);
     }

@@ -1,16 +1,13 @@
 import React from 'react';
 import './intro.scss'
 import './typewritter'
-const Intro =()=>(
-    <div className='white f2 content dib v-btm'>  
-                   
-                    <span>Hiii, I'm Bami Ogunfemi. A Software Engineer and </span>
-                        <span
-                           className="txt-rotate"
-                           data-period="2000"
-                           data-rotate='[ "Part-time Nerd.","Foodie.", "Lover of great UX." ]'></span>
-                    
-                    </div>
-                      
+const Intro = () => (
+    <div className='white  content dib v-btm'>
+
+        <span> Bami Ogunfemi is a <a href="https://github.com/bamiogunfemi">Frontend Engineer</a> and <a href="https://bamiogunfemu.hashnode.dev/">Technical Writer</a>  based in Lagos, Nigeria. She enjoys good music and food.</span>
+
+    </div>
+
 )
 export default Intro
+ 

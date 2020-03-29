@@ -1,13 +1,18 @@
 .content {
     line-height: 2;
     width: 80%;
-    margin: 20% 10% 10% 10%;
-
+    margin: 18% 10% 10% 10%;
+    font-size:2.25rem;
 }
 
-
+a{
+    color: gray;
+}
 @media screen and(max-width:600px) {
     .content {
-        margin: 30% 1rem;
+        margin-top:45%;
+        line-height: 1.2;
+        font-size:2rem;
+
     }
 }

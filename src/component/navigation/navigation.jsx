@@ -20,6 +20,8 @@ const Navigation = () => (
                 <ul className="navigation__list">
                     <li className="navigation__item"><a href="https://github.com/bamiogunfemi" rel="noopener noreferrer" target="_blank"className="navigation__link"><span>01</span>GITHUB</a></li>
                     <li className="navigation__item"><a href="https://docs.google.com/document/d/1e53HfyKFHUlmFlSLxsktlDy4L0JQ71GeCWASn4eNR2w/export?format=pdf" rel="noopener noreferrer" download="Ayobami-Arafah-Ogunfemi-resume" className="navigation__link"><span>02</span>RESUME</a></li>
+                    <li className="navigation__item"><a href="https://bamiogunfemu.hashnode.dev/" rel="noopener noreferrer"  className="navigation__link"><span>03</span>BLOG</a></li>
+
                     </ul>
             </nav>
         </div>
